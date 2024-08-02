@@ -1,5 +1,5 @@
 token:
   expiration_time: 86400000
-  secret: user_token_is_very_good_dev
+  secret: user_token_is_very_good_dev_1
 gateway:
   ip: localhost
