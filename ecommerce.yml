@@ -1,6 +1,8 @@
-token:
-  expiration_time: 86400000
-  secret: user_token_is_very_good
+
+# 공통적인 것은 application.yml에다가 몰아줌. localhost:8888/{servicename}/default 치면 application.yml도 읽는 것을 볼 수 있음
+# token:
+#   expiration_time: 86400000
+#   secret: '{cipher}AYCs3djEYyLoeNqSTpKu5v8rPO3Q0J67mCkVrrnHml5zgS9U9oivc2ib7clOEKK9j6idq/zZMUk0hKniNV0UmgTkzUcrMVkEDRGcfR5d5Kj48mLxWoBzxFzsOSP3U3nS3OWUHQI1KN4y8ib5gg7lJ4MuqzDu7W++OleMPGBC6oN5xIy5Iq4dMlQ0ywXVSfIQzyxogiHso0cHdkszhuXgOUwbwDVBhvVM02yMw74K19Le546TPWQH/BYYqd1f1djoDCNTHZbdBvRIGSRg2rCDvl9budGV0KLPM/rCg5ZA84J8p930Jorm/C6O9N6vrKe9+5gZaF21wnWtnPXsaRSSPZfVCSOerqGCwKsDh7DBzofJwaZc8hzaLec9uMcJlrtnHJ0jS/K1T5DaH7XlfpC5MnCH7TkUTpHObdlEADWuBBxqseB8dkbqtx8BpXu8izku85eUGzEG5kVcLqCOoZvAs0aHsEDkCRy/rohudd+2JqbYX6LIEvHt7DQn4mi40sr06iptu8/+URFyt5rEYfgEiLVQ+RLqFehAeyoOzVpOcPBCPgEaO8Q8k9+YeC/e2RRhTAg='
 
 
 gateway:

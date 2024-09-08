@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}2ed91182d2e02ddff08f3efc3f61d393bbf94c6a1d236174a3041bf33ab3252e'
+    password: '{cipher}AYBGOSj2zgfqnxsQQSEYmUMCSS8aV+A8YRLtiXDkAu/bAsckVw4DjoiBykc7UZtH6uVLv2UoF5gDSX6F46q2eNnMOaokcV0qW/LGuFqN79RtCu7mRfzTiWNeeqKbWC2riYASn14qGka8xuT1plVr0XSMjSNymvkVwLudUoEdkgTkFC/1pfxnB4kHLbwVSdPxoUAc2tARZvVu+sWYjtc2m2q3ZRLYh8IeGI/zL5zkyBnIfNvR6xtkaUVeOZFRMdLSTDXj5V26sFJaX6ydJTFpxvdq9UfYrUHNCsu4H10fG8CAnqLvPcdQcD8tv+q9Md7pZMBY6/Wp6fkB53cF4qBWekoHCrtMzOIVirEmuDT8XwHew3IZ/Kk/POYHHY3dYu+YfC6WGFPfIGx6zqxhcRuUxvT55z/6F41f7p6QAuQafQqI9wp+lQ5LXGh7f4jaPz9hHlT+uEdJtD369237ZpFwPUzQoGbZr0T0pgzR/lHEXP3g4kKHxm6cP6qQ0QDTXxwh2ZxO6D37t2dUHNRA7oHoZXWtTJWZtjbJd34UO6Tr+GufyA=='
     driver-class-name: org.h2.Driver
 
 
@@ -12,4 +12,7 @@ token:
 
 
 gateway:
-  ip: localhost
+  ip: 192.168.10.102
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
